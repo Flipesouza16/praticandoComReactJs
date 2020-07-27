@@ -1,0 +1,31 @@
+.appList {
+    text-align: center;
+}
+
+.conversor input {
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    outline: none;
+}
+
+.conversor h2,
+.conversor h1 {
+    font-size: 25px;
+}
+
+.conversor input[type=button] {
+    padding: 10px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: var(--button-color);
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+

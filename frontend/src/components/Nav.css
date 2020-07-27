@@ -1,0 +1,21 @@
+.menu {
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu h3 {
+    padding: 10px;    
+    width: 100%;
+}
+
+.menu h3:hover {
+    background: linear-gradient(135deg, #707070 0%, #494949 100%); 
+}
+
+.fa {
+    font-size: 40px;
+}
+
+link {
+    text-decoration: none;
+}

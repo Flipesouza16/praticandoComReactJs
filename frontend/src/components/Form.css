@@ -1,0 +1,50 @@
+
+.form {
+   
+    background-color: rgb(80, 80, 80);
+    box-shadow: var(--shadow);
+    
+    padding: 15px;
+}
+
+.form h2 {
+    font-size: 33px;
+    margin-left: 15px;
+}
+
+.form h3 {
+    font-size: 20px;
+}
+
+.form input {
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.send {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 10px;
+}
+
+.send input {
+    margin-bottom: 20px;
+}
+
+.send button {
+    padding: 8px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: linear-gradient((135deg, #d1d1d1 0%, #fafafa 100%));
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--button-color);
+    display: block;
+}

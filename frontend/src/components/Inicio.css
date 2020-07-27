@@ -1,0 +1,25 @@
+.inicio {
+    box-shadow: var(--shadow);
+    text-align: center;
+   
+    margin: auto;
+
+    margin-top: 35px;
+
+    background-color: var(--gray-color);
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+@media(min-width: 900px) {
+    .inicio {
+        margin: auto;
+        margin-top: 35px;
+        max-width: 600px;
+        max-height: 600px;
+    }
+}

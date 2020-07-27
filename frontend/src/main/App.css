@@ -1,0 +1,68 @@
+:root {
+    --shadow: 
+    0 2px 23px 0 rgba(0, 0, 0, 0.1),
+    0 2px 49px 0 rgba(0, 0, 0, 0.06);
+    --gray-color: rgb(95, 95, 95);
+    --button-color: rgb(92, 91, 91);
+
+    /*****/
+    --header-height: 130px
+}
+
+*{
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #444;
+}
+
+h1, h2, h3, header {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.menu {
+    box-shadow: var(--shadow);
+    height: 100vh;
+}           
+
+.app {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    grid-template-rows: var(--header-height) 1fr;
+    grid-template-areas: 
+        "logo header"
+        "menu content"
+        "menu footer";
+    height: 100vh;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+header.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+   
+}
+
+
+

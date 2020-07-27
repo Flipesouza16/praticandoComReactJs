@@ -1,0 +1,10 @@
+.logo {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: var(--shadow);
+    background-color: rgb(95, 95, 95);
+}
